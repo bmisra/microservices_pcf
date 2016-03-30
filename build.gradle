@@ -29,6 +29,12 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	testCompile('org.springframework.boot:spring-boot-starter-test') 
+	compile('redis.clients:jedis:2.0.0')
+	testCompile('redis.clients:jedis:2.0.0')
+	compile('net.spy:spymemcached:2.12.0')
+	testCompile('net.spy:spymemcached:2.12.0')
+	compile('net.sourceforge.argo:argo:3.19')
+	testCompile('net.sourceforge.argo:argo:3.19')
 }
 
 
